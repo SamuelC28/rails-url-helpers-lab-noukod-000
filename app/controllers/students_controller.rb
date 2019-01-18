@@ -22,9 +22,9 @@ class StudentsController < ApplicationController
     redirect_to show
   end
 
-  def to_s
-    first_name+" "+ last_name
-  end
+  # def to_s
+  #   first_name+" "+ last_name
+  # end
 
   private
 
